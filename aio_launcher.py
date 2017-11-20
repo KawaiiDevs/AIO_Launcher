@@ -106,4 +106,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         for shard in shards:
             shard.client.loop.stop()
-        sys.exit(1)
+        sys.exit(0)
